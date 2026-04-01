@@ -20,7 +20,7 @@ public class WriteData {
 	
 		XSSFWorkbook book = new XSSFWorkbook();
 				
-		XSSFSheet sheet = book.getSheet("WriteData");
+		XSSFSheet sheet = book.createSheet("WriteData");
 
 		
 		XSSFRow row = sheet.createRow(0);                     // create row at index 0
